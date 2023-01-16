@@ -1,0 +1,206 @@
+body{
+    margin: 1em;
+    background-image: url("../Image/wallpaperblack.jpg");
+    background-size: 100%;
+}
+h1 {
+    font-size: 250%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:goldenrod;
+    border-style: groove;
+    border-color: gold;
+    background-color:black ;
+    
+}
+#wlc{
+  border-style:  solid ;
+  border-color: gold;
+  border-size:10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  goldenrod;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center !important;
+    padding: 14px 16px;
+    text-decoration: solid;
+    font-size:x-large ;
+  }
+  
+  li a:hover {
+    background-color: gold;
+  }
+  #pic{
+    border-color: gold;
+    border-style: outset;
+    float: left;
+    margin-right: 10px;
+    width: 20%;
+    height: 25%;
+  }
+  #maintext{
+        font-size:350%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        word-wrap: break-word; 
+        text-align: center;
+        border: 5px groove ;
+        border-color: gold;
+        color: goldenrod;
+        
+    }
+  p {
+    font-size:150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    word-wrap: break-word; 
+    text-align: center;
+    border: 5px groove ;
+    border-color: gold;
+    color: goldenrod;
+    
+}
+#ims{
+  font-family: Arial, Helvetica, sans-serif;
+  border: #023042;
+  border-style: groove;
+  width: 100%;
+}
+#ims td, #ims th {
+  border: 5px groove goldenrod;
+  padding: 10px;
+  text-align: center;
+}
+
+#ims th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: gold;
+}
+.imgs{  
+  width:20%;
+  height: 20%;
+
+}
+#text{
+    border-style: groove;
+    border-color: gold;
+    background-color:whitesmoke ;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  div.gallery:hover {
+    border: 10px solid whitesmoke;
+  }
+  
+  div.gallery img {
+    height: auto;
+    width: 40%;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid gold;
+  }
+  div p {
+    color: goldenrod;
+    float: none;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 gold;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color: blue;
+    padding: 20px 0;!important
+
+   
+  }
+  
+  .title {
+    color: goldenrod;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 gold;
+  }
+  .aa{
+    display: flex;
+  }
+  section h2{
+    text-transform: uppercase;
+    color:goldenrod;
+    text-align: center;
+}
+.annee{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.question {
+    margin-bottom: 30px;
+    color: white;
+    font-size: larger;
+  }
+  
+  .question label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+#quiz-form {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #question {
+    margin-bottom: 20px;
+  }
+  #question label {
+    display: block;
+    margin-bottom: 10px;
+    color: azure;
+  }
+  
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
